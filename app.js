@@ -1,31 +1,23 @@
-(function () {
-    const today = new Date();
+const users = [
+    {id: 1, name: 'John'},
+    {id: 2, name: 'Tom'},
+    {id: 3, name: 'Suzan'}
+];
 
-    console.log(today);
-    console.log(today.getDay());
+const names = users.map(u => u.name);
 
-    switch (today.getDay()) {
-        case 1:
-            console.log("I's Monday");
-            break;
-        case 2:
-            console.log("I's Tuesday");
-            break;
-        case 3:
-            console.log("I's Wednesday");
-            break;
-        case 4:
-            console.log("I's Thursday");
-            break;
-        case 5:
-            console.log("I's Friday");
-            break;
-        case 6:
-            console.log("I's Saturday");
-            break;
-        case 7:
-            console.log("I's Sunday");
-            break;
-    }
-})();
+names.forEach(n => console.log(n));
 
+for (let u of users) {
+    console.log(u.name);
+}
+
+const person = {
+    firstName: 'John',
+    lastName: 'Doe',
+    age: 18
+};
+
+for (let key in person) {
+    console.log(key, person[key]);
+}
