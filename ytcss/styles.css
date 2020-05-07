@@ -60,3 +60,7 @@ a:active {
 a:visited {
     color: black;
 }
+
+.form-1{
+    padding: 20px;
+}
