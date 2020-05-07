@@ -1,0 +1,66 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0;
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+}
+
+.box-1 {
+    background-color: darkgray;
+    color: white;
+}
+
+.box-2 {
+    background-color: lightgoldenrodyellow;
+    color: darkgray;
+}
+
+.box-1 h1 {
+    font-family: Tahoma, sans-serif;
+}
+
+.box-2 h1 {
+    font-family: Times, serif;
+}
+
+.categories {
+    border: 1px lightgray solid;
+}
+
+.categories li {
+    padding: 8px;
+    border-bottom: dotted 1px lightgray;
+}
+
+.categories h2 {
+    text-align: center;
+}
+
+.categories ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+}
+
+a:visited {
+    color: black;
+}
+
+.form-1{
+    padding: 20px;
+}
