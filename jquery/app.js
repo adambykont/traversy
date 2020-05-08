@@ -1,3 +1,3 @@
 function toggle(element, speed) {
-$(element).toggle(speed);
+    $(element).toggle(speed);
 }
