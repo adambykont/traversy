@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AJAX</title>
+</head>
+<body>
+
+<form>
+    <input type="button" value="Get Data" onclick=getContent()>
+</form>
+
+
+<div id="content">
+
+</div>
+
+<script type="text/javascript">
+
+    function getContent() {
+
+        let httpRequest = new XMLHttpRequest();
+        httpRequest.open('get', "https://jsonplaceholder.typicode.com/posts/1", true);
+        httpRequest.send(null);
+
+    let elementById = document.getElementById('content');
+
+    elementById.innerHTML=httpRequest.responseText;
+    }
+
+</script>
+</body>
+</html>
