@@ -1,0 +1,11 @@
+.container {
+    width: 33%;
+    background: beige;
+    margin: auto;
+    text-align: center;
+}
+
+#output {
+    background: lightgoldenrodyellow;
+    height: 200px;
+}
