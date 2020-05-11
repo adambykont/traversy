@@ -1,5 +1,13 @@
 .container {
-    width: 66%;
+    text-align: center;
+    width: 50%;
     margin: auto;
     background-color: lightgoldenrodyellow;
+}
+
+ul {
+    text-align: left;
+    background-color: lightgray;
+    border: 1px black solid;
+    list-style-type: none;
 }
