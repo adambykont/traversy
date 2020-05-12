@@ -1,0 +1,12 @@
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+.item {
+    border-bottom: lightgray solid 1px;
+}
+
+.activated {
+    background-color: bisque;
+}
