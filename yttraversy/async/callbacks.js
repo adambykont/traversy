@@ -15,15 +15,14 @@ function getPosts() {
     }, 1000);
 }
 
-function addPost(post) {
+function addPost(post, callback) {
     setTimeout(() => {
         posts.push(post);
-        console.log('added')
+        console.log('added');
+        callback();
     }, 2000);
 }
 
-addPost(post3);
-getPosts();
-
+addPost(post3, getPosts);
 
 console.log("The end")
