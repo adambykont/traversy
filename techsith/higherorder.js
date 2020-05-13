@@ -12,3 +12,9 @@ const companies = [
 
 const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
 
+const combined = ages
+    .map(e => 2 * e)
+    .filter(e => e >= 40)
+    .sort((a, b) => a - b)
+    .reduce((a, e) => a + e);
+console.log(combined);
